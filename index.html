@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+ <html>
+ <head>  
+    <title>1contador</title>
+    <style>
+        *                   {
+     margin: 0;
+     box-sizing: border-box;
+    }
+
+       body                 {
+     border:15px solid rgb(241,7,93);
+     background-color: rgb(153, 32, 72);
+     color: rgb(241,7,93);
+     display: grid;
+     place-items: center; 
+     min-height: 100vh;
+
+    }
+      section               {
+
+     background: rgb(153, 26, 72);
+     padding: 100px;
+     text-align: center;
+     border-radius: 500px;
+     border:15px solid rgb(241,7,93)
+     
+     
+    }
+       p                    {
+     font-size: 100px;
+    }
+      button                {
+     color: rgb(241,7,93);
+     
+
+
+
+    }
+      h1                     {
+     color:rgb(241,7,93);
+     
+
+
+     border:5px solid rgb(241,7,93)
+     
+    }
+      border                 {
+     color-scheme: pink; 
+    }
+    </style>
+ </head>
+ <body>
+    <section>
+     <h1>Contador</h1>
+     <p>0</p>
+     <button onclick="aumentar()">mais</button>
+     <button onclick="diminuir()">menos</button>
+    </section>
+    <script>
+
+     let numero = 0
+
+    function aumentar()     {
+     numero = numero + 1
+     console.log(numero);
+     mostrarNaTela()
+
+    }
+    function diminuir()     {
+
+     numero = numero - 1
+     console.log(numero);
+     mostrarNaTela()
+
+    }
+    function mostrarNaTela(){
+      const p = document.querySelector("p")
+      p.innerText = numero
+    }
+
+     mostrarNaTela()
+    </script> 
+
+ </body>
+ </html>
