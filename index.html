@@ -1,7 +1,7 @@
 <!DOCTYPE html>
  <html>
  <head>  
-    <title>1contador</title>
+    <title>cyclops</title>
 
     <link rel="stylesheet" href="stili.css">
   
@@ -10,8 +10,10 @@
     <section>
      <h1>Contador</h1>
      <p>0</p>
-     <button onclick="aumentar()">mais</button>
-     <button onclick="diminuir()">menos</button>
+
+     <button id="aumentar"onclick="aumentar()">mais</button>
+     <button id="diminuir"onclick="diminuir()">menos</button>
+     
     </section>
     <script>
      let numero = 0
@@ -33,8 +35,8 @@
       const p = document.querySelector("p")
       p.innerText = numero
     }
-
-     mostrarNaTela()
+      
+    mostrarNaTela()
     </script> 
 
  </body>

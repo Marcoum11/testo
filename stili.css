@@ -1,51 +1,90 @@
-*                   {
+      *                   {
   margin: 0;
   box-sizing: border-box;
- }
+   }
+.heading-container        {
+  border:2px solid rgb(0, 0, 0);    
+  border-radius: 500px;
+  display:inline-block
 
-    body                 {
-  border:15px solid rgb(241,7,93);
-  background-color: rgb(153, 32, 72);
+   }
+
+body                      {
+  border:150px solid rgb(241,7,93);
+  border-radius:1000vh;
+  border-top:1px;
+  border-bottom: 1px;
+  background-color: rgb(0, 0, 0);
   color: rgb(241,7,93);
   display: grid;
   place-items: center; 
   min-height: 100vh;
-
- }
-   section               {
-
-  background: rgb(153, 26, 72);
-  padding: 100px;
-  text-align: center;
-  border-radius: 500px;
-  border:15px solid rgb(241,7,93)
   
   
- }
-    p                    {
-  font-size: 100px;
-  top: 100vh;
- }
-   button                {       
-  color:rgb(153, 26, 72) ;
-  background: rgb(241,7,93);
-  width: 20vh;
-
- }
-   button:hover           {
-  color:rgb(153, 26, 72));  
   
-  
+   }   
+section                   { 
+  background: rgb(63, 19, 33);
+  padding: 50px;
+  border-radius: px;
+  border:100px solid rgb(241,7,93);
+  margin-inline:10vh ;
+  margin-block:300vh ;
+  position: absolute;
+    
+   }
 
- }
 
-   h1                     {
+p                         {
+  font-size: 30vh;
+  font-weight: 1000;
+  border-radius: 300px;
+  border:px solid rgb(241,7,93);
   color:rgb(241,7,93);
-  left: 10vh;
-  right: 10vh;
-  top: 1000px;
-  margin: -10;
-
-  border:5px solid rgb(241,7,93)
+  margin:10vh ;
+  margin-inline:-26vh ; 
+  position: absolute;
+   }
+button                    {  
+  height: 3vh;      
+  color:white ;
+  background: rgb(241,7,93);
   
- }
+  
+
+   }
+#aumentar:hover           {
+  color:green;
+
+   }
+#aumentar                 {
+   margin-block:13vh ;
+   margin-inline:-20vh;
+   position: absolute;
+   font-weight: ;
+   }
+
+#diminuir:hover           {
+  color: rgb(163, 4, 4);
+  
+   }       
+#diminuir                 {
+  margin-block:-12vh ; 
+  margin-inline:-15vh;
+  position: absolute;
+   }
+  
+
+      
+
+h1                        {  
+  color:rgb(241,7,93);
+  font-size:4vh;
+  position:absolute ;
+  margin-block: -50vh;
+  margin-inline:-12vh;
+  border: 1vh solid rgb(241,7,93) ;
+  border-bottom: 1vh;
+  border-top: 1vh; 
+   }
+  
